@@ -4,8 +4,19 @@
 // Return the concatenation
 
 function myFunction(a, b) {
-  return;
+  // let isAvailable = a.includes(b);
+  // console.log(isAvailable);
+  // if (isAvailable == true) {
+  //   return b + a;
+  // } else {
+  //   return a + b;
+  // }
+
+  return a.indexOf(b) === -1 ? a + b : b + a;
 }
+
+let result = myFunction(" think, therefore I am", "I");
+console.log(result); // 'cheesecake'
 
 /*
 myFunction('cheese', 'cake')

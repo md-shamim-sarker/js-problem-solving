@@ -3,7 +3,7 @@
 // Return the rounded number
 
 function myFunction(a) {
-  return;
+  return Number(a.toFixed(2));
 }
 
 let result = myFunction(2.12397);

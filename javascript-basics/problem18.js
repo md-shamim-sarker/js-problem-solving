@@ -3,8 +3,20 @@
 // Tip: you might want to change the type of the number for the splitting
 
 function myFunction(a) {
-  return;
+  // const arr = String(a).split("");
+  // const newArr = [];
+  // for (let i = 0; i < arr.length; i++) {
+  //   newArr.push(Number(arr[i]));
+  // }
+  // return newArr;
+
+  const string = a + "";
+  const strings = string.split("");
+  return strings.map((digit) => Number(digit));
 }
+
+let result = myFunction(931);
+console.log(result);
 
 /*
 myFunction(10)

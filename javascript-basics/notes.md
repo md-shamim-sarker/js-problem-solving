@@ -58,4 +58,28 @@ Math.log(x) // returns the natural logarithm of x.
 Math.log2(x) // returns the base 2 logarithm of x.
 Math.log10(x) // returns the base 10 logarithm of x
 
-javascript-basics: Problem: 12, 14, 17, 18, 19, 20, 21, 22, 23
+javascript-basics: Problem: ~~12~~, ~~14~~, ~~17~~, ~~18~~, ~~19~~, 20, 21, 22, 23
+
+Problem-1: Sum two numbers
+Problem-2: Comparison operators, strict equality
+Problem-3: Get type of value
+Problem-4: Get nth character of string
+Problem-5: Remove first n characters of string
+Problem-6: Get last n characters of string
+Problem-7: Get first n characters of string
+Problem-8: Extract first half of string
+Problem-9: Remove last n characters of string
+Problem-10: Return the percentage of a number
+Problem-11: Basic JavaScript math operators
+Problem-12: Check whether a string contains another string and concatenate
+Problem-13: Check if a number is even
+Problem-14: How many times does a character occur?
+Problem-15: Check if a number is a whole number
+Problem-16: Multiplication, division, and comparison operators
+Problem-17: Round a number to 2 decimal places
+Problem-18: Split a number into its digits
+Problem-19: Clear up the chaos behind these strings
+Problem-20: Return the next higher prime number
+Problem-21: Find next higher natural number that is divisible by y
+Problem-22: Insert character after every n characters (backwards)
+Problem-23: Find the correct word by incrementing letters in alphabet
