@@ -4,7 +4,16 @@
 // If not, return the next higher natural number that is divisible by y
 
 function myFunction(x, y) {
-  //   return x % y === 0 ? x : x + y - (x % y);
+    // if (x % y == 0) {
+    //     return x;
+    // } else if (y < 0) {
+    //     return 0;
+    // } else {
+    //     return Math.floor(x / y) * y + y;
+    // }
+
+    while (x % y !== 0) x++;
+    return x;
 }
 
 let result = myFunction(7, 3);

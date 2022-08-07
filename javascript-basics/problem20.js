@@ -4,8 +4,25 @@
 // If not, return the next higher prime number
 
 function myFunction(a) {
-  return;
+    // for (let i = 2; i < a; i++) {
+    //     if (a % i === 0) {
+    //         return myFunction(a + 1);
+    //     }
+    // }
+    // return a;
+
+    function isPrime(num) {
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) return false;
+        }
+        return num > 1;
+    }
+    let n = a;
+    while (!isPrime(n)) n++;
+    return n;
 }
+
+console.log(myFunction(38));
 
 /*
 myFunction(38)

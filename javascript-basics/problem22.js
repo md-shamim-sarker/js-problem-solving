@@ -3,8 +3,27 @@
 // Return the resulting string
 
 function myFunction(a, b) {
-  return;
+    // let result = "";
+    // let index = 0;
+    // for (let i = a.length - 1; i > -1; i--) {
+    //     index++;
+    //     result = a[i] + result;
+    //     if (index % 3 === 0) {
+    //         result = b + result;
+    //     }
+    // }
+    // return result;
+
+    let result = [];
+    let rest = a;
+    while (rest.length) {
+        result.push(rest.slice(-3));
+        rest = rest.slice(0, -3);
+    }
+    return result.reverse().join(b);
 }
+
+console.log(myFunction("1234567", "."));
 
 /*
 myFunction('1234567','.')
